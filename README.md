@@ -46,3 +46,9 @@ Designed as a **portfolio project**, it highlights **industry best practices in 
 
 Below is a **conceptual architecture** of the data pipeline and layers used in this project:  
 
+![Architecture Diagram](assets/HighLevel_architecture.png)  
+
+> 🥉 **Bronze Layer** → Raw, ingested data from source systems (ERP, CRM).  
+> 🥈 **Silver Layer** → Cleaned, transformed, and standardized data.  
+> 🥇 **Gold Layer** → Analytics-ready data for reporting and dashboards.
+
