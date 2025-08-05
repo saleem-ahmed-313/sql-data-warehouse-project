@@ -1,31 +1,48 @@
-# Data Warehouse and Analytics Project
+# 📊 Data Warehouse and Analytics Project  
 
-Welcome to the **Data Warehouse and Analytics Project**  repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project highlights industry best practices in data engineering and analytics
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a **comprehensive data warehousing and analytics solution**, showcasing the journey from building a data warehouse to generating actionable insights.  
+
+Designed as a **portfolio project**, it highlights **industry best practices in data engineering and analytics**.  
 
 ---
 
-## 🚀 Projects Requirements
+## 🚀 Project Requirements  
 
-### Building the Data Warehouse (Data Engineering)
+> ⚠ **Note:** This project focuses on building a modern data warehouse and delivering business insights using SQL-based analytics.  
 
-#### Objective 
-Develop a modern data warehouse using SQL server to consolidate sales data, enabling analytical reporting and informed decision-making.
+---
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP AND CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issue prior to analysis.
-- **Integration**: Combine both sources into a single, user friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not supported.
-- **Documentation**: Provide clear documentation of the model to support both business stakeholders and analytics team.
+### 🔹 **1. Building the Data Warehouse (Data Engineering)**  
 
-  ### BI: Analytics & reporting (Data Analytics)
+> 🎯 **Objective:**  
+> Develop a **modern data warehouse using SQL Server** to consolidate sales data, enabling **analytical reporting and informed decision-making**.  
 
-  ### Objective
-  Develop SQL-based analytics to deliver detailed insights into:
-  - **Customer Behavior**
-  - **Product Performance**
-  - **Sales Trends**
- 
-    These insights empower stakeholders with key business metrics, enabling decision-making.
+#### 📌 **Specifications**
+| **Area**          | **Details**                                                                 |
+|--------------------|------------------------------------------------------------------------------|
+| **Data Sources**   | Import data from **ERP** and **CRM** systems (provided as CSV files).       |
+| **Data Quality**   | Cleanse and resolve **data quality issues** prior to analysis.             |
+| **Integration**    | Combine both sources into a **single, user-friendly data model**.          |
+| **Scope**          | Focus on **latest dataset only** (no historization supported).             |
+| **Documentation**  | Provide **clear model documentation** for business and analytics teams.    |
+
+---
+
+### 🔹 **2. BI: Analytics & Reporting (Data Analytics)**  
+
+> 🎯 **Objective:**  
+> Develop **SQL-based analytics** to deliver insights into:  
+
+✅ **Customer Behavior**  
+✅ **Product Performance**  
+✅ **Sales Trends**  
+
+> 💡 These insights empower stakeholders with **key business metrics** and enable **data-driven decision-making**.  
+
+---
+
+## 🏗️ Architecture Diagram  
+
+Below is a **conceptual architecture** of the data pipeline and layers used in this project:  
 
